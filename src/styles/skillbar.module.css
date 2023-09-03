@@ -1,0 +1,30 @@
+.skill_bar_container{
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    margin-bottom: 0.5em;
+}
+.skill_bar {
+    display: block;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.skill_name {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: #333; 
+    font-weight: 600;
+}
+
+.skill_percent {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #616161; 
+  }
+
+
+    

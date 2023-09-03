@@ -1,0 +1,174 @@
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    position:fixed;
+    padding: 2px;
+    margin: 0;
+    list-style-type: none;
+    background: rgb(14,27,46);
+    background: linear-gradient(90deg, rgba(14,27,46,1) 0%, rgba(19,41,70,1) 15%, rgba(34,77,130,1) 100%);
+    z-index: 100;
+}
+.menu_item{
+    font-family: 'Signika', sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #f9fafa;
+    border-right: 1px solid #2d5bae;
+    text-transform: uppercase;
+}
+
+.menu_link{
+    cursor: pointer;
+}
+
+.menu_link:hover{
+    text-shadow: #9cf0ff 2px 0 10px;
+}
+
+
+
+.homePage{
+    background:  url("../img/rm314-adj-04.jpg") center center/cover no-repeat;
+    height: auto;
+    margin: 0;
+    padding: 100px;
+}
+
+.headers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.headers img{
+    width: 500px;
+}
+.header{
+    font-size: 50px;
+    color: #2d5bae;
+    margin-bottom: 0;
+    font-family: 'Jockey One', sans-serif;
+    text-shadow: 1px 1px 2px rgb(20, 26, 61);
+}
+.descr{
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+    color: #2d5bae;
+    text-shadow: 1px 1px 1px rgb(20, 26, 61);
+    margin: 5px;
+}
+
+.aboutSection{
+    background:  url("../img/90595.jpg") center center/cover no-repeat;
+    padding: 100px;
+}
+
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    padding: 25px;
+    width: 800px;
+    height: auto;
+    margin-left: -70px;
+    border-radius: 5px;
+    background-color: #f9fafa;
+    border: 1px solid rgba(19,41,70,1);
+    border-left:6px solid #1ab7d3;
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3);
+}
+
+.aboutHeader{
+    font-family: 'Jockey One', sans-serif;
+    margin: 10px;
+    font-size: 80px;
+    color:#21cbe9;
+}
+
+
+.about_descr{
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+}
+
+
+
+.contactBtn{
+  align-items: center;
+  appearance: none;
+  margin: 20px;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Signika', sans-serif;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.contactBtn:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.contactBtn:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.skills{
+    padding: 100px;
+}
+.skillsHeader{
+    font-family: 'Jockey One', sans-serif;
+    margin: 20px;
+    margin-left: 50px;
+    font-size: 80px;
+    color:#21cbe9;
+}
+
+.MyWorksSection{
+    background:  url("../img/rm314-adj-04.jpg") center center/cover no-repeat;
+    padding: 50px 100px;
+}
+
+.worksSectionP{
+    font-family: 'Jockey One', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color:rgba(34,77,130,1);
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

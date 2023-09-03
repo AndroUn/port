@@ -1,0 +1,53 @@
+.projectsBox{
+    display: inline-block;
+    width: 450px;
+    margin: 10px 40px;
+    height: auto;
+}
+.projectContainer{
+    position: relative;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    transition: .2s all;
+}
+.projectContainer:hover{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 138, 0.5);
+    transform: translateY(-2px);
+}
+
+.projectImg{
+    width: 450px;
+    border-radius: 25px;
+    margin: 0;
+}
+
+.projectText{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 500;
+    top: 200px;
+    left: -20px;
+    bottom: 100px;
+    font-family: 'Righteous', cursive;
+    text-shadow: rgba(10, 10, 10, 0.3) 2px 3px;
+    color: rgba(34,77,130,1);
+    z-index: 99;
+}
+
+
+
+.projectLinks{
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 18px;
+}
+
+.projectLinks:hover{
+    text-shadow: 0 0 3px rgba(0, 0, 138);
+}
+
+.projectLinks a{
+    text-decoration: none;
+    color: rgba(34,77,130,1);
+}
