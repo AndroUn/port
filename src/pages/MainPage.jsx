@@ -12,7 +12,7 @@ const MainPage = () => {
 
             <div className={styles.homePage} id='home'>
                 <div className={styles.headers}>
-                    <div>
+                    <div className={styles.text}>
                         <p className={styles.header}>Hi, my name is Andro<br/>
                         and I'm Front-End Developer,</p>
                         <p className={styles.descr}>on this website you can take a glance at my works and check my skills.</p>
@@ -25,6 +25,7 @@ const MainPage = () => {
 
             <AboutMeSection />
             <MyWorksSection />
+
             <Footer />
             
         </div>

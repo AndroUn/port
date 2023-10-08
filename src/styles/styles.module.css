@@ -29,6 +29,46 @@
     text-shadow: #9cf0ff 2px 0 10px;
 }
 
+.menu_link_a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu_link_a:hover{
+    color: rgba(19,41,70,1);
+}
+
+
+.hamburger{
+	display: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #f9fafa;
+    z-index: 999;
+}
+
+.hamburgerMenu{
+    display: none;
+    position: fixed;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    list-style-type: none;
+    padding-top: 20px;
+    flex-direction: column;
+    background: rgb(0,0,0,0.95);
+    z-index: 990;
+}
+
+.hamburgerMenu_item{
+    font-size: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #f9fafa;
+    text-transform: uppercase;
+}
 
 
 .homePage{
@@ -36,17 +76,27 @@
     height: auto;
     margin: 0;
     padding: 100px;
+
+    @media (max-width: 700px){
+        padding-bottom: 70px;
+    }
 }
 
 .headers{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 0;
 }
+
+
 .headers img{
-    width: 500px;
+    width: 35%;
+    height: auto;
+    margin-left: 30px;
 }
+
+
 .header{
     font-size: 50px;
     color: #2d5bae;
@@ -54,12 +104,14 @@
     font-family: 'Jockey One', sans-serif;
     text-shadow: 1px 1px 2px rgb(20, 26, 61);
 }
+
+
 .descr{
     font-size: 20px;
     font-family: 'Signika', sans-serif;
     color: #2d5bae;
     text-shadow: 1px 1px 1px rgb(20, 26, 61);
-    margin: 5px;
+    margin-top: 5px;
 }
 
 .aboutSection{
@@ -83,6 +135,7 @@
     border: 1px solid rgba(19,41,70,1);
     border-left:6px solid #1ab7d3;
     box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3);
+
 }
 
 .aboutHeader{
@@ -142,7 +195,8 @@
 }
 
 .skills{
-    padding: 100px;
+    padding-top: 100px;
+    margin: 0 auto;
 }
 .skillsHeader{
     font-family: 'Jockey One', sans-serif;
@@ -160,7 +214,7 @@
 .worksSectionP{
     font-family: 'Jockey One', sans-serif;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 50px;
     color:rgba(34,77,130,1);
 }
@@ -172,3 +226,270 @@
 }
 
 
+
+
+
+/********************************* MEDIA *********************************/
+
+
+@media (max-width: 1600px){
+    .aboutMe img{
+        width: 420px;
+    }
+    .box{
+        width: 760px;
+    }
+}
+
+
+
+/*******************************************************/
+
+@media (max-width: 1350px){
+    .aboutMe img{
+        width: 400px;
+    }
+    .box{
+        width: 720px;
+    }
+    .about_descr{
+        font-size: 18px;
+    }
+}
+
+
+/*******************************************************/
+
+@media (max-width: 1250px){
+    .header{
+        font-size: 35px;
+    }
+    .aboutMe img{
+        width: 380px;
+    }
+    .box{
+        width: 680px;
+    }
+    .about_descr{
+        font-size: 16px;
+    }
+    .contactBtn{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+    }
+}
+
+
+/*******************************************************/
+
+
+@media (max-width: 1200px){
+    .header{
+        font-size: 30px;
+    }
+    .aboutHeader{
+        font-size: 70px;
+    }
+}
+
+/*******************************************************/
+
+@media (max-width: 1150px){
+    .aboutMe img{
+        width: 340px;
+    }
+    .box{
+        width: 620px;
+    }
+}
+
+
+/*******************************************************/
+
+@media (max-width: 1050px){
+    .descr{
+        font-size: 17px;
+    }
+    .aboutMe img{
+        width: 300px;
+    }
+    .box{
+        width: 560px;
+    }
+    .about_descr{
+        font-size: 14px;
+    }
+}
+
+
+/*******************************************************/
+
+@media (max-width: 950px){
+    .header{
+        font-size: 23px;
+    }
+    .descr{
+        font-size: 14px;
+        text-shadow: none;
+    }
+    .box{
+        width: 500px;
+    }
+    .about_descr{
+        font-size: 14px;
+    }
+    .aboutHeader{
+        font-size: 50px;
+    }
+    .skillsHeader{
+        font-size: 50px;
+    }
+}
+
+
+/*******************************************************/
+
+@media (max-width: 850px){
+    .header{
+        font-size: 20px;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .aboutMe img{
+        display: none;
+    }
+    .box{
+        width: 450px;
+        margin-left: 0;
+    }
+    .aboutHeader{
+        text-align: center;
+    }
+    .about_descr{
+        font-size: 14px;
+    }
+    .contactBtn{
+        display: flex;
+        height: 42px;
+        margin: 20px auto;
+
+    }
+    .skills{
+        padding-top: 50px;
+    }
+}
+
+/*******************************************************/
+
+@media (max-width: 800px){
+    .aboutSection{
+        padding: 40px;
+    }    
+    .aboutMe img{
+        display: none;
+    }
+    .box{
+        width: 350px;
+    }
+    .about_descr{
+        font-size: 14px;
+    }
+    .contactBtn{
+        height: 38px;
+    }
+}
+
+/*******************************************************/
+
+@media (max-width: 700px){
+    .header{
+        font-size: 18px;
+    }
+    .worksSectionP{
+        font-size: 40px;
+    }
+}
+
+
+/*******************************************************/
+
+@media (max-width: 600px){
+    .homePage{
+        padding: 70px;   
+    }
+    .headers{
+        flex-direction: column; 
+    }
+    .headers img{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .menu{
+        justify-content: flex-start;
+    }
+    .menu_item{
+        display: none;
+    }
+}
+
+
+/*******************************************************/
+
+
+@media (max-width: 500px){
+    .homePage{
+        padding: 50px;   
+    }
+    .header{
+        margin-top: 20px;
+    }
+    .worksSectionP{
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 450px){
+    .homePage{
+        padding: 40px;   
+    }
+    .box{
+        width: 300px;
+    }
+    .AboutMeSection{
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 410px){
+    .box{
+        width: 240px;
+    }
+    .worksSectionP{
+        font-size: 30px;
+    }
+    .about_descr{
+        font-size: 12px;
+    }
+    .aboutHeader{
+        font-size: 30px;
+    }
+    .skillsHeader{
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 300px){
+    .box{
+        width: 200px;
+    }
+}

@@ -6,8 +6,8 @@ const AboutMeSection = () => {
   return (
     <section id="about" className={styles.aboutSection}>
       <div className={styles.aboutMe}>
-        <img src={image} />
-        <div>
+        <img src={image} alt='comp_image'/>
+        <div className={styles.secondBlock}>
           <p className={styles.aboutHeader}>About Me</p>
           <div class={styles.box}>
               <div class={styles.about_descr}>
@@ -29,8 +29,8 @@ const AboutMeSection = () => {
         <p className={styles.skillsHeader}>My Skills</p>
         <Skillbar name='HTML' percent='90%' color='#FF5733'/>
         <Skillbar name='CSS' percent='70%' color='#12A3FC'/>
-        <Skillbar name='JS' percent='60%' color='#BCFC12'/>
-        <Skillbar name='React' percent='60%' color='#12A3FC'/>
+        <Skillbar name='JS' percent='70%' color='#BCFC12'/>
+        <Skillbar name='React' percent='70%' color='#12A3FC'/>
       </div>
     </section>
   )

@@ -15,3 +15,26 @@
     margin: 20px;
     font-family: 'Signika', sans-serif;
 }
+
+
+
+@media (max-width: 600px){
+    .footer{
+        padding: 40px;
+    }
+    
+    .footerContent{
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 500px){
+    .footer{
+        padding: 30px;
+    }
+    
+    .footerContent{
+        flex-direction: column;
+    }
+}
