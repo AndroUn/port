@@ -1,5 +1,5 @@
 import styles from '../styles/styles.module.css'
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, animateScroll as scroll} from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'

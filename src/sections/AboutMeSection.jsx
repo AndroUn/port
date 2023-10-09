@@ -1,8 +1,12 @@
 import styles from '../styles/styles.module.css'
 import image from '../img/frontend-development-tools.png'
 import Skillbar from '../components/skillbar'
+import { Link } from 'react-scroll'
+
 
 const AboutMeSection = () => {
+
+
   return (
     <section id="about" className={styles.aboutSection}>
       <div className={styles.aboutMe}>
@@ -21,7 +25,7 @@ const AboutMeSection = () => {
                   Recently I completed a React/React-native course at Skillwill Academy.
               </div>
           </div>
-          <button className={styles.contactBtn}>Contact</button>
+          <Link className={styles.contactBtn} to='footer' smooth={true} duration={500}>Contact</Link>
         </div>
       </div>
 

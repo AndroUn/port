@@ -4,8 +4,12 @@ import Footer from "../components/footer"
 import Navigator from "../components/navigator"
 import styles from "../styles/styles.module.css"
 import RobotImage from "../img/robot_port.png" 
+import { useEffect } from "react"
 
 const MainPage = () => {
+    useEffect(() => {
+        document.title = 'Portfolio - Andro Unanovi'
+    })
     return(
         <div>
             <Navigator />

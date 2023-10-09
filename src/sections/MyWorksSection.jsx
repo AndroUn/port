@@ -10,8 +10,8 @@ const MyWorksSection = () => {
             <div className={styles.MyWorksSection}>
                 <p className={styles.worksSectionP}>My Works</p>
                 <div className={styles.projects}>
-                    <ProjectBox text="Uber - CSS/Bootstrap Grid" image={uberImage} link="https://androun.github.io/uberTry/" repository="https://github.com/AndroUn/uberTry"/>
-                    <ProjectBox text="GameTry - Couple Javascript elements" image={gameTryImage} link="https://androun.github.io/gameTry/" repository="https://github.com/AndroUn/gameTry"/>
+                    <ProjectBox text="Game Sales - React/Redux" image={gameTryImage} link="https://game-sales.vercel.app" repository="https://github.com/AndroUn/game_sales"/>
+                    <ProjectBox text="Uber - Responsive/Bootstrap Grid" image={uberImage} link="https://androun.github.io/uberTry/" repository="https://github.com/AndroUn/uberTry"/>
                 </div>
             </div>
         </section>
