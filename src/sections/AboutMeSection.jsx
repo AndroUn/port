@@ -21,10 +21,10 @@ const AboutMeSection = () => {
                   I also have experience in editing videos, creating 3D objects and creating websites in Wix.
                   <br></br>
                   <br></br>
-                  Recently I have completed a Front-End Development course at Skillwill Academy, where I have learned React, Redux and basics of React Native.
+                  Recently I have completed a FrontEnd Development course at Skillwill Academy, where I have learned React, Redux and basics of React Native.
                   <br></br>
                   <br></br>
-                  I would really like to start working as a beginner front end developer, yes I don't have much experience,
+                  I would really like to start working as a frontend developer, yes I don't have much experience,
                   but at the same time I am a fast learner and I am motivated to learn all the ins and outs of this profession and become better in it.
               </div>
           </div>
