@@ -22,7 +22,7 @@ const AboutMeSection = () => {
                   I also have experience in editing videos, creating 3D objects and creating websites in Wix.
                   <br></br>
                   <br></br>
-                  Recently I completed a React/React-native course at Skillwill Academy.
+                  Recently I have completed a React/React-native course at Skillwill Academy.
               </div>
           </div>
           <Link className={styles.contactBtn} to='footer' smooth={true} duration={500}>Contact</Link>
@@ -32,9 +32,10 @@ const AboutMeSection = () => {
       <div className={styles.skills}>
         <p className={styles.skillsHeader}>My Skills</p>
         <Skillbar name='HTML' percent='90%' color='#FF5733'/>
-        <Skillbar name='CSS' percent='70%' color='#12A3FC'/>
+        <Skillbar name='CSS' percent='80%' color='#12A3FC'/>
         <Skillbar name='JS' percent='70%' color='#BCFC12'/>
         <Skillbar name='React' percent='70%' color='#12A3FC'/>
+        <Skillbar name='Redux' percent='70%' color='#6521db'/>
       </div>
     </section>
   )
