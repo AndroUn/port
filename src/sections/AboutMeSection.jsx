@@ -20,7 +20,9 @@ const AboutMeSection = () => {
                   also had deal with databases and etc. 
                   I also have experience in editing videos, creating 3D objects and creating websites in Wix.
                   <br></br>
+                  <br></br>
                   Recently I have completed a Front-End Development course at Skillwill Academy, where I have learned React, Redux and basics of React Native.
+                  <br></br>
                   <br></br>
                   I would really like to start working as a beginner front end developer, yes I don't have much experience,
                   but at the same time I am a fast learner and I am motivated to learn all the ins and outs of this profession and become better in it.
@@ -37,6 +39,7 @@ const AboutMeSection = () => {
         <Skillbar name='JS' percent='70%' color='#BCFC12'/>
         <Skillbar name='React' percent='70%' color='#12A3FC'/>
         <Skillbar name='Redux' percent='70%' color='#6521db'/>
+        <Skillbar name='Adobe Photoshop' percent='60%' color='#6ea0f0'/>
       </div>
     </section>
   )
