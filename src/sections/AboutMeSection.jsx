@@ -37,6 +37,7 @@ const AboutMeSection = () => {
         <Skillbar name='HTML' percent='90%' color='#FF5733'/>
         <Skillbar name='CSS' percent='80%' color='#12A3FC'/>
         <Skillbar name='JS' percent='70%' color='#BCFC12'/>
+        <Skillbar name='Typescript' percent='70%' color='#6ea0f0'/>
         <Skillbar name='React' percent='70%' color='#12A3FC'/>
         <Skillbar name='Redux' percent='70%' color='#6521db'/>
         <Skillbar name='Adobe Photoshop' percent='60%' color='#6ea0f0'/>
