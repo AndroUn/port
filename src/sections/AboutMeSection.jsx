@@ -35,7 +35,7 @@ const AboutMeSection = () => {
       <div className={styles.skills}>
         <p className={styles.skillsHeader}>My Skills</p>
         <Skillbar name='HTML' percent='90%' color='#FF5733'/>
-        <Skillbar name='CSS' percent='80%' color='#12A3FC'/>
+        <Skillbar name='CSS(SASS/SCSS)' percent='80%' color='#12A3FC'/>
         <Skillbar name='JS' percent='70%' color='#BCFC12'/>
         <Skillbar name='Typescript' percent='70%' color='#6ea0f0'/>
         <Skillbar name='React' percent='70%' color='#12A3FC'/>
